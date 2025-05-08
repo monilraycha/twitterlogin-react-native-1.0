@@ -9,7 +9,7 @@ import React from 'react';
 import {Button, SafeAreaView, StyleSheet} from 'react-native';
 import {useSignInWithTwitter} from './useSignInWithTwitter';
 
-function App(): JSX.Element {
+function App() {
   const {signInWithTwitter} = useSignInWithTwitter();
 
   return (
